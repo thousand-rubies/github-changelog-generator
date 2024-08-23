@@ -10,8 +10,8 @@ group :development, :test do
   gem "bundler"
   gem "overcommit", ">= 0.31"
   gem "rake"
-  gem "rubocop", ">= 0.50"
-  gem "rubocop-performance"
+  gem "rubocop", ">= 0.93.0"
+  gem "rubocop-performance", ">= 1.9.0"
   gem "yard-junk"
 end
 
@@ -26,5 +26,5 @@ group :test do
   gem "rspec_junit_formatter"
   gem "simplecov", "~>0.10", require: false
   gem "vcr", "~> 6"
-  gem "webmock"
+  gem "webmock", ">= 3.11.3"
 end
