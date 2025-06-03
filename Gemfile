@@ -12,7 +12,7 @@ group :development, :test do
   gem "rake"
   gem "rubocop", ">= 0.50"
   gem "rubocop-performance"
-  gem "yard-junk"
+  gem "yard-junk", ">= 0.0.8"
 end
 
 group :development do
@@ -26,5 +26,5 @@ group :test do
   gem "rspec_junit_formatter"
   gem "simplecov", "~>0.10", require: false
   gem "vcr", "~> 6"
-  gem "webmock"
+  gem "webmock", ">= 3.11.3"
 end
